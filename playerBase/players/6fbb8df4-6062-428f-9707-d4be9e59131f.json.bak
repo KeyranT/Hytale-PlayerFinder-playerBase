@@ -1,0 +1,661 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "JohnMack"
+    },
+    "EffectController": {},
+    "EndgamePlayerData": {
+      "DataVersion": 1,
+      "Achievements": {
+        "Completed": {
+          "combat_first_blood": true,
+          "discovery_5": true
+        },
+        "Progress": {
+          "combat_first_blood": 1,
+          "combat_slayer_100": 23,
+          "discovery_all": 7,
+          "combat_slayer_50": 23,
+          "combat_exterminator": 23,
+          "combat_thousand": 23,
+          "discovery_5": 5,
+          "discovery_20": 7,
+          "discovery_10": 7
+        },
+        "CompletedAt": {
+          "combat_first_blood": 1772426920068,
+          "discovery_5": 1772934416905
+        },
+        "Claimed": {}
+      },
+      "Bounties": {
+        "LastRefreshTimestamp": 1772934416905,
+        "Bounties": {
+          "0": {
+            "TemplateId": "easy_rat_frost_12",
+            "Progress": 0,
+            "Target": 12,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "1": {
+            "TemplateId": "med_frost_feran_4",
+            "Progress": 0,
+            "Target": 4,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "2": {
+            "TemplateId": "hard_speed_hedera",
+            "Progress": 0,
+            "Target": 1,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_frenzy",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        },
+        "StreakClaimed": false,
+        "TotalBountiesCompleted": 0,
+        "Reputation": 0,
+        "LastWeeklyRefreshTimestamp": 1772426920068,
+        "WeeklyBounty": {
+          "0": {
+            "TemplateId": "weekly_combo_master",
+            "Progress": 0,
+            "Target": 5,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        }
+      },
+      "Bestiary": {
+        "Entries": {
+          "Cow_Calf": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772934491041,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Bat": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772426927678,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Rat": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772426920068,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Chicken_Chick": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772934416905,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Scrapper": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772426990688,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton": {
+            "KillCount": 9,
+            "FirstKillTimestamp": 1772934832000,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Thief": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772751775790,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          }
+        },
+        "ClaimedDiscoveryMilestone": 0
+      },
+      "VoidPocket": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot3ItemId": "",
+        "Slot3Count": 0,
+        "Slot4ItemId": "",
+        "Slot4Count": 0,
+        "Slot5ItemId": "",
+        "Slot5Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0,
+        "Slot3Durability": -1.0,
+        "Slot4Durability": -1.0,
+        "Slot5Durability": -1.0
+      },
+      "AccessoryPouch": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0
+      },
+      "Locale": "",
+      "ComboPersonalBest": 1
+    },
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "PlayerLevelData": {
+      "Level": 5,
+      "Experience": 1661.674396058172,
+      "AvailableStatPoints": 20,
+      "AllocatedStats": "",
+      "ClaimedRewardLevels": "",
+      "ResetPoints": 0
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "JohnMack",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -1736.858642578125,
+        "Y": 146.5,
+        "Z": -19.069557189941406
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -2.313444137573242,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Snail_Magma",
+          "TranslationKey": "server.npcRoles.Snail_Magma.name",
+          "CapturedTimestamp": 1772758767702,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Raptor_Cave",
+          "TranslationKey": "server.npcRoles.Raptor_Cave.name",
+          "CapturedTimestamp": 1772761760318,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "DeathProcessedMarker": {},
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "b7uN9GBiQo+XB9S+nlkTHw==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {}
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Armor_Onyxium_Head",
+              "Quantity": 1,
+              "Durability": 296.5,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Onyxium_Hands",
+              "Quantity": 1,
+              "Durability": 295.5,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Onyxium_Chest",
+              "Quantity": 1,
+              "Durability": 294.0,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Onyxium_Legs",
+              "Quantity": 1,
+              "Durability": 294.5,
+              "MaxDurability": 300.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Endgame_Sword_Prisma",
+              "Quantity": 1,
+              "Durability": 350.0,
+              "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Coin_Gold",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "2": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Shield_Orbis_Incandescent",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 54,
+          "Items": {}
+        },
+        "ActiveHotbarSlot": 8,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 3,
+        "SortType": "Type"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [
+          "Food_Pie_Apple",
+          "Plant_Seeds_Health1"
+        ],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -1736.858642578125,
+              "Y": 146.5,
+              "Z": -19.069557189941406,
+              "Pitch": -0.1750011444091797,
+              "Yaw": -2.3134443759918213,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [
+              {
+                "BlockPosition": {
+                  "X": -1735,
+                  "Y": 155,
+                  "Z": -19
+                },
+                "RespawnPosition": {
+                  "X": -1733.9999999701977,
+                  "Y": 156.0,
+                  "Z": -17.775000020861626
+                },
+                "Name": "JohnMack's bed"
+              }
+            ],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-d8215d9a-4afa-4c0f-8cc6-385e8c8bd2fc",
+                "Transform": {
+                  "X": -1733.5,
+                  "Y": 146.5,
+                  "Z": -16.700000762939453,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 220
+              },
+              {
+                "MarkerId": "death-marker-586d5c5f-faa8-43f4-80e9-1956b97120c3",
+                "Transform": {
+                  "X": -1800.3250732421875,
+                  "Y": 61.0,
+                  "Z": 33.47201919555664,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 299
+              },
+              {
+                "MarkerId": "death-marker-d797f7da-0f47-4507-8ee2-9240c535917d",
+                "Transform": {
+                  "X": -229.34181213378906,
+                  "Y": 48.00434875488281,
+                  "Z": 6392.84130859375,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 332
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Zone1_Shore",
+          "Zone1_Tier2",
+          "Zone1_Tier3",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Tier1",
+          "Zone1_Shallow_Ocean",
+          "Zone3_Tier1",
+          "Zone3_Tier2",
+          "Zone3_Tier3",
+          "Zone2_Shallow_Ocean",
+          "Oceans",
+          "Zone2_Tier1",
+          "Zone2_Tier2",
+          "Zone2_Tier3",
+          "Zone2_Shore",
+          "Zone4_Shore_Tier5",
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone1_Spawn",
+          "Zone3_Shore_Tier2",
+          "Zone1_Temple",
+          "Zone3_Shore_Tier1",
+          "ForgottenTemple",
+          "Zone4_Tier4",
+          "Zone4_Tier5"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "FmS9uU3OSa24SMN5TAkCrg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "N2KXKbXvR9CHQFyFJpJVfA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "cayGvZtBQxG8pYpZUT77Zg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "afZekggGRXaXTfZMGwNrnA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "NiZujsLmTA25v8BVHgFBtA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "6ewIADpgTOulYO8HwhonAw==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Endgame_Sword_Prisma",
+                "Quantity": 1,
+                "Durability": 350.0,
+                "MaxDurability": 350.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Coin_Gold",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Endgame_Upgrade_Backpack_2",
+        "Endgame_Upgrade_Backpack_3",
+        "Upgrade_Backpack_3",
+        "Upgrade_Backpack_2",
+        "Upgrade_Backpack_1",
+        "Endgame_Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "b7uN9GBiQo+XB9S+nlkTHw==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 83.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            },
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 63.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 266.0,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 106.0
+            },
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 50.0
+            },
+            "SKILL_BONUS_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 10.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 10.0
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": 0.25549882650375366,
+        "Yaw": -1.9704453945159912,
+        "Roll": 0.0
+      }
+    }
+  }
+}

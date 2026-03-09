@@ -1,0 +1,453 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "Sickjo"
+    },
+    "EffectController": {},
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "PlayerLevelData": {
+      "Level": 5,
+      "Experience": 2664.8755977368587,
+      "AvailableStatPoints": 20,
+      "AllocatedStats": "",
+      "ClaimedRewardLevels": "",
+      "ResetPoints": 0
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "Sickjo",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -1734.9271240234375,
+        "Y": 148.41232299804688,
+        "Z": -18.817420959472656
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 7.995044231414795,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Burnt_Lancer",
+          "TranslationKey": "server.npcRoles.Skeleton_Burnt_Lancer.name",
+          "CapturedTimestamp": 1771951336124,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Golem_Crystal_Frost",
+          "TranslationKey": "server.npcRoles.Golem_Crystal_Frost.name",
+          "CapturedTimestamp": 1771952747677,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Owl_Brown",
+          "TranslationKey": "server.npcRoles.Owl_Brown.name",
+          "CapturedTimestamp": 1771953355749,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Spider_Cave",
+          "TranslationKey": "server.npcRoles.Spider_Cave.name",
+          "CapturedTimestamp": 1771953700258,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Molerat",
+          "TranslationKey": "server.npcRoles.Molerat.name",
+          "CapturedTimestamp": 1771953705186,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Larva_Silk",
+          "TranslationKey": "server.npcRoles.Larva_Silk.name",
+          "CapturedTimestamp": 1771953941714,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Incandescent_Fighter",
+          "TranslationKey": "server.npcRoles.Skeleton_Incandescent_Fighter.name",
+          "CapturedTimestamp": 1771953967833,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Golem_Firesteel",
+          "TranslationKey": "server.npcRoles.Golem_Firesteel.name",
+          "CapturedTimestamp": 1771954143590,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Pig_Piglet",
+          "TranslationKey": "server.npcRoles.Pig_Piglet.name",
+          "CapturedTimestamp": 1771954932735,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Horse_Foal",
+          "TranslationKey": "server.npcRoles.Horse_Foal.name",
+          "CapturedTimestamp": 1771954962160,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Raven",
+          "TranslationKey": "server.npcRoles.Raven.name",
+          "CapturedTimestamp": 1771955538936,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "DeathProcessedMarker": {},
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "zL1rjNBQStGAZi00VkhNag==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {}
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {}
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 54,
+          "Items": {}
+        },
+        "ActiveHotbarSlot": 7,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 0,
+        "SortType": "Type"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -1734.9271240234375,
+              "Y": 148.41232299804688,
+              "Z": -18.817420959472656,
+              "Pitch": -0.661079466342926,
+              "Yaw": 2.4972567558288574,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [
+              {
+                "BlockPosition": {
+                  "X": -1710,
+                  "Y": 97,
+                  "Z": -244
+                },
+                "RespawnPosition": {
+                  "X": -1708.8250000476837,
+                  "Y": 98.5,
+                  "Z": -244.0250000357628
+                },
+                "Name": "MY HOUSE"
+              }
+            ],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-d0e01bce-96eb-4667-bd54-c2dbc97a0582",
+                "Transform": {
+                  "X": -1426.4744873046875,
+                  "Y": 116.0,
+                  "Z": -578.90771484375,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 229
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Oceans",
+          "Zone2_Tier2",
+          "Zone3_Tier3",
+          "Zone2_Tier3",
+          "Zone3_Tier1",
+          "Zone1_Tier2",
+          "Zone1_Tier1",
+          "Zone2_Shallow_Ocean",
+          "Zone3_Shore_Tier3",
+          "Zone3_Shore_Tier2",
+          "Zone4_Tier5",
+          "Zone1_Temple",
+          "Zone1_Spawn",
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone1_Shallow_Ocean",
+          "Zone2_Shore",
+          "Zone1_Shore",
+          "Zone1_Tier3",
+          "Zone3_Tier2",
+          "Zone2_Tier1"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "d7Gg7tTRQYSFZVKRHoqy9g==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {}
+          },
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {}
+          },
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {}
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Endgame_Upgrade_Backpack_2",
+        "Endgame_Upgrade_Backpack_3",
+        "Upgrade_Backpack_3",
+        "Upgrade_Backpack_2",
+        "Upgrade_Backpack_1",
+        "Endgame_Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "zL1rjNBQStGAZi00VkhNag==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 27.5,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            },
+            "SKILL_BONUS_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 7.5
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 117.25,
+          "Modifiers": {
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            },
+            "SKILL_BONUS_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 2.25
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 25.0,
+          "Modifiers": {
+            "EL_RACE_BASE_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.661079466342926,
+        "Yaw": 2.4972567558288574,
+        "Roll": 0.0
+      }
+    }
+  }
+}

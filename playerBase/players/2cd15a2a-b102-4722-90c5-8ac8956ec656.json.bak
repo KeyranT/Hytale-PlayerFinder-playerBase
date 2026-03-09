@@ -1,0 +1,1033 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "ZenDaydreams [Villager] - Lvl.9"
+    },
+    "EffectController": {},
+    "EndgamePlayerData": {
+      "DataVersion": 1,
+      "Achievements": {
+        "Completed": {
+          "combat_first_blood": true,
+          "discovery_all": true,
+          "discovery_5": true,
+          "discovery_20": true,
+          "combat_slayer_50": true,
+          "discovery_10": true
+        },
+        "Progress": {
+          "combat_first_blood": 1,
+          "combat_slayer_100": 91,
+          "discovery_all": 30,
+          "combat_slayer_50": 50,
+          "combat_exterminator": 91,
+          "combat_thousand": 91,
+          "discovery_5": 5,
+          "discovery_20": 20,
+          "discovery_10": 10
+        },
+        "CompletedAt": {
+          "combat_first_blood": 1772424619428,
+          "discovery_all": 1772852764061,
+          "discovery_5": 1772425263910,
+          "discovery_20": 1772758461936,
+          "combat_slayer_50": 1772839676564,
+          "discovery_10": 1772472563773
+        },
+        "Claimed": {}
+      },
+      "Bounties": {
+        "LastRefreshTimestamp": 1772934794507,
+        "Bounties": {
+          "0": {
+            "TemplateId": "easy_saurian_rogue_6",
+            "Progress": 0,
+            "Target": 6,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "1": {
+            "TemplateId": "med_damage_2000",
+            "Progress": 0,
+            "Target": 2000,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "2": {
+            "TemplateId": "hard_speed_golem",
+            "Progress": 0,
+            "Target": 1,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_frenzy",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        },
+        "StreakClaimed": false,
+        "TotalBountiesCompleted": 0,
+        "Reputation": 0,
+        "LastWeeklyRefreshTimestamp": 1772424619427,
+        "WeeklyBounty": {
+          "0": {
+            "TemplateId": "weekly_boss_slayer",
+            "Progress": 0,
+            "Target": 5,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        }
+      },
+      "Bestiary": {
+        "Entries": {
+          "Skeleton_Fighter": {
+            "KillCount": 5,
+            "FirstKillTimestamp": 1772427231188,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Golem_Crystal_Sand": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772764379989,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Spectre_Void": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772755994606,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Rat": {
+            "KillCount": 12,
+            "FirstKillTimestamp": 1772758461936,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Mage": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772838825854,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Penguin": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772425953442,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Feran_Sharptooth": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772936481667,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Yeti": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772424619427,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Archer": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772674719496,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Hound_Bleached": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772758319503,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Wolf_White": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772840099103,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Crab": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772513052978,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Feran_Burrower": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772937672940,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Deer_Doe": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772472563773,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Tortoise": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772512151543,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Scarak_Seeker": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772756224561,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Wolf_Black": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772427526297,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Tamed_Cow": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772853217378,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Larva_Void": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772425040618,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Armadillo": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772512049012,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Archmage_Patrol": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772839573516,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Bear_Grizzly": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772852136663,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Scrapper": {
+            "KillCount": 13,
+            "FirstKillTimestamp": 1772424977859,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Fighter_Wander": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772852657411,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Incandescent_Mage": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772939254029,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Knight_Patrol": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772839676564,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Mosshorn": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772852764061,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Hunter": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772425249213,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Fighter": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772475169984,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Sand_Scout": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772935943391,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Spider": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772851967010,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Lobber": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772758378757,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Ranger_Patrol": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772839646619,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Berserker": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772425333014,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Sand_Guard": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772935970028,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Sand_Assassin_Wander": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772936350525,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Sorcerer": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772425263910,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          }
+        },
+        "ClaimedDiscoveryMilestone": 0
+      },
+      "VoidPocket": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot3ItemId": "",
+        "Slot3Count": 0,
+        "Slot4ItemId": "",
+        "Slot4Count": 0,
+        "Slot5ItemId": "",
+        "Slot5Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0,
+        "Slot3Durability": -1.0,
+        "Slot4Durability": -1.0,
+        "Slot5Durability": -1.0
+      },
+      "AccessoryPouch": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0
+      },
+      "Locale": "",
+      "ComboPersonalBest": 1
+    },
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "PlayerLevelData": {
+      "Level": 4,
+      "Experience": 2275.998592712733,
+      "AvailableStatPoints": 15,
+      "AllocatedStats": "",
+      "ClaimedRewardLevels": "",
+      "ResetPoints": 0
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "ZenDaydreams",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -2054.359619140625,
+        "Y": 129.0,
+        "Z": 466.7764892578125
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 3.31065034866333,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Snail_Magma",
+          "TranslationKey": "server.npcRoles.Snail_Magma.name",
+          "CapturedTimestamp": 1772758164407,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Raptor_Cave",
+          "TranslationKey": "server.npcRoles.Raptor_Cave.name",
+          "CapturedTimestamp": 1772761784604,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Rex_Cave",
+          "TranslationKey": "server.npcRoles.Rex_Cave.name",
+          "CapturedTimestamp": 1772761821737,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trillodon",
+          "TranslationKey": "server.npcRoles.Trillodon.name",
+          "CapturedTimestamp": 1772761825743,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Molerat",
+          "TranslationKey": "server.npcRoles.Molerat.name",
+          "CapturedTimestamp": 1772838744159,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Frost_Archmage",
+          "TranslationKey": "server.npcRoles.Skeleton_Frost_Archmage.name",
+          "CapturedTimestamp": 1772839554687,
+          "FoundLocationNameKey": "server.map.region.Zone3_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Vulture",
+          "TranslationKey": "server.npcRoles.Vulture.name",
+          "CapturedTimestamp": 1772935740293,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Sand_Scout",
+          "TranslationKey": "server.npcRoles.Skeleton_Sand_Scout.name",
+          "CapturedTimestamp": 1772935938499,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Incandescent_Mage",
+          "TranslationKey": "server.npcRoles.Skeleton_Incandescent_Mage.name",
+          "CapturedTimestamp": 1772939196368,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "DeathProcessedMarker": {},
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "LNFaKrECRyKQxYrIlW7GVg==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "0": {
+              "Id": "Tool_Repair_Kit_Iron",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "33": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "25": {
+              "Id": "Potion_Health_Large",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Food_Pie_Apple",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "24": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "26": {
+              "Id": "Food_Kebab_Fruit",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "17": {
+              "Id": "Food_Kebab_Meat",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "35": {
+              "Id": "Food_Kebab_Mushroom",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "27": {
+              "Id": "*Container_Bucket_State_Filled_Water",
+              "Quantity": 1,
+              "Durability": 0.9,
+              "MaxDurability": 1.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Arrow_Crude",
+              "Quantity": 44,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "34": {
+              "Id": "Potion_Health_Lesser",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 119.5,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 117.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 102.0,
+              "MaxDurability": 104.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 120.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Standard_Glider",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Tool_Pickaxe_Thorium",
+              "Quantity": 1,
+              "Durability": 139.25,
+              "MaxDurability": 159.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Food_Vegetable_Cooked",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Weapon_Daggers_Iron",
+              "Quantity": 1,
+              "Durability": 104.90000000000046,
+              "MaxDurability": 113.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Food_Kebab_Vegetable",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Shortbow_Iron_Rusty",
+              "Quantity": 1,
+              "Durability": 43.76000000000005,
+              "MaxDurability": 60.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Tool_Hatchet_Thorium",
+              "Quantity": 1,
+              "Durability": 287.0,
+              "MaxDurability": 287.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Potion_Health_Small",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Tool_Shovel_Thorium",
+              "Quantity": 1,
+              "Durability": 128.59999999997353,
+              "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Bench_Furnace",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Ingredient_Charcoal",
+              "Quantity": 62,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveHotbarSlot": 2,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 3,
+        "SortType": "Name"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -2054.501220703125,
+              "Y": 129.85000610351562,
+              "Z": 465.48046875,
+              "Pitch": -0.4421820044517517,
+              "Yaw": -1.5707964897155762,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [
+              {
+                "BlockPosition": {
+                  "X": -2056,
+                  "Y": 129,
+                  "Z": 465
+                },
+                "RespawnPosition": {
+                  "X": -2054.8250000476837,
+                  "Y": 130.5,
+                  "Z": 464.9749999642372
+                },
+                "Name": "ZenDaydreams's bed"
+              }
+            ],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-fe1f6768-f583-480b-97de-661c740befbe",
+                "Transform": {
+                  "X": -9983.0576171875,
+                  "Y": 121.0,
+                  "Z": -4125.45263671875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 232
+              },
+              {
+                "MarkerId": "death-marker-3842d8e8-b854-4530-a671-2e6ff0ccdd2b",
+                "Transform": {
+                  "X": -6018.25537109375,
+                  "Y": 147.0,
+                  "Z": -7548.25439453125,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 276
+              },
+              {
+                "MarkerId": "death-marker-9decb16d-cf1c-41cb-a116-2211a07207fb",
+                "Transform": {
+                  "X": -235.7530517578125,
+                  "Y": 48.0,
+                  "Z": 6381.576171875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 332
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Zone4_Tier4",
+          "Zone4_Tier5",
+          "Oceans",
+          "Zone1_Shallow_Ocean",
+          "Zone2_Shallow_Ocean",
+          "Zone2_Tier1",
+          "Zone2_Tier2",
+          "Zone2_Tier3",
+          "Zone1_Spawn",
+          "Zone2_Shore",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone3_Tier1",
+          "Zone3_Tier2",
+          "Zone3_Tier3",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "ForgottenTemple",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier3",
+          "Zone4_Shore_Tier5",
+          "Zone1_Tier1",
+          "Zone1_Tier2",
+          "Zone1_Tier3",
+          "Zone4_Shore_Tier4",
+          "Zone1_Shore"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "Mb012BC7T8OWmzWE5mg6iw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "N2KXKbXvR9CHQFyFJpJVfA==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Adventure"
+    },
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "LNFaKrECRyKQxYrIlW7GVg==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 20.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 194.0,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 61.0
+            },
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            },
+            "SKILL_BONUS_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 18.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 25.200000762939453,
+          "Modifiers": {
+            "EL_RACE_BASE_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            },
+            "SKILL_BONUS_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 0.20000000298023224
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.19542939960956573,
+        "Yaw": 3.1058995723724365,
+        "Roll": 0.0
+      }
+    }
+  }
+}

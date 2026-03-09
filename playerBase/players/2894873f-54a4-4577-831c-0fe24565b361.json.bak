@@ -1,0 +1,853 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "Owtlah"
+    },
+    "EffectController": {},
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "PlayerLevelData": {
+      "Level": 1,
+      "Experience": 638.955,
+      "AvailableStatPoints": 0,
+      "AllocatedStats": "",
+      "ClaimedRewardLevels": "",
+      "ResetPoints": 0
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "Owtlah",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -1798.0948486328125,
+        "Y": 124.84097290039062,
+        "Z": -13.269560813903809
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -11.620319366455078,
+        "Roll": 0.0
+      }
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "KJSHP1SkRXeDHA/iRWWzYQ==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "33": {
+              "Id": "Rock_Volcanic_Brick_Smooth",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "29": {
+              "Id": "Cloth_Block_Wool_Orange",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "25": {
+              "Id": "Plant_Leaves_Goldentree",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "Metadata": {
+                "ToolData": {
+                  "SmoothStrength": 2,
+                  "BrushDensity": 100,
+                  "BrushSpacing": 0
+                },
+                "BrushData": {
+                  "Width": 6,
+                  "Height": 4,
+                  "Thickness": 0,
+                  "Capped": false,
+                  "Shape": "Sphere",
+                  "Origin": "Center",
+                  "OriginRotation": false,
+                  "RotationAxis": "None",
+                  "RotationAngle": "None",
+                  "MirrorAxis": "None",
+                  "Material": "Empty",
+                  "FavoriteMaterials": [],
+                  "Mask": "-",
+                  "MaskAbove": "-",
+                  "MaskNot": "-",
+                  "MaskBelow": "-",
+                  "MaskAdjacent": "-",
+                  "MaskNeighbor": "-",
+                  "MaskCommands": [],
+                  "UseMaskCommands": false,
+                  "InvertMask": false
+                }
+              },
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Rock_Stone_Brick",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Gold_Pile_Medium",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Rock_Stone",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "EditorTool_Cave",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "Metadata": {
+                "ToolData": {
+                  "aCaveBlocks": "Rock_Volcanic",
+                  "xRandomizeDimensions": true,
+                  "dCaveFloorDecorationBlocks": "Empty",
+                  "aCaveBlocksDecorationDensity": 9,
+                  "eOreBlocksDensity": 2,
+                  "yMeltStrength": 4,
+                  "bCaveTopBlocksDensity": 18,
+                  "bCaveTopBlocks": "Empty",
+                  "dCaveFloorDecorationBlocksDensity": 5,
+                  "zSmoothness": 2,
+                  "aCaveBlocksDecoration": "Empty",
+                  "eOreBlocks": "Empty",
+                  "cCaveFloorBlocks": "Empty",
+                  "cCaveFloorBlocksDensity": 70
+                },
+                "BrushData": {
+                  "Width": 3,
+                  "Height": 3,
+                  "Thickness": 0,
+                  "Capped": false,
+                  "Shape": "Sphere",
+                  "Origin": "Center",
+                  "OriginRotation": false,
+                  "RotationAxis": "None",
+                  "RotationAngle": "None",
+                  "MirrorAxis": "None",
+                  "Material": "Empty",
+                  "FavoriteMaterials": [],
+                  "Mask": "-",
+                  "MaskAbove": "-",
+                  "MaskNot": "-",
+                  "MaskBelow": "-",
+                  "MaskAdjacent": "-",
+                  "MaskNeighbor": "-",
+                  "MaskCommands": [],
+                  "UseMaskCommands": false,
+                  "InvertMask": false
+                }
+              },
+              "OverrideDroppedItemAnimation": false
+            },
+            "30": {
+              "Id": "Wood_Crystal_Trunk",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "24": {
+              "Id": "Cloth_Roof_Red_Vertical",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "18": {
+              "Id": "Gold_Pile_Small",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "26": {
+              "Id": "Rock_Volcanic_Brick_Pillar_Base",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "16": {
+              "Id": "Rock_Volcanic_Brick_Half",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "17": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "Metadata": {
+                "ToolData": {
+                  "BrushDensity": 100,
+                  "BrushSpacing": 0
+                },
+                "BrushData": {
+                  "Width": 5,
+                  "Height": 11,
+                  "Thickness": 0,
+                  "Capped": false,
+                  "Shape": "InvertedCone",
+                  "Origin": "Top",
+                  "OriginRotation": false,
+                  "RotationAxis": "None",
+                  "RotationAngle": "None",
+                  "MirrorAxis": "None",
+                  "Material": "Rock_Crystal_Red_Block",
+                  "FavoriteMaterials": [],
+                  "Mask": "-",
+                  "MaskAbove": "-",
+                  "MaskNot": "-",
+                  "MaskBelow": "-",
+                  "MaskAdjacent": "-",
+                  "MaskNeighbor": "-",
+                  "MaskCommands": [],
+                  "UseMaskCommands": false,
+                  "InvertMask": false
+                }
+              },
+              "OverrideDroppedItemAnimation": false
+            },
+            "19": {
+              "Id": "Rock_Volcanic_Brick_Pillar_Base",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "23": {
+              "Id": "Wood_Redwood_Planks_Half",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "21": {
+              "Id": "Furniture_Royal_Magic_Bed",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "22": {
+              "Id": "Rock_Gem_Sapphire",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "20": {
+              "Id": "Rock_Volcanic_Brick",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "35": {
+              "Id": "Rock_Volcanic_Brick_Pillar_Middle",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "Metadata": {
+                "ToolData": {
+                  "BrushDensity": 100,
+                  "BrushSpacing": 0
+                },
+                "BrushData": {
+                  "Width": 9,
+                  "Height": 11,
+                  "Thickness": 0,
+                  "Capped": false,
+                  "Shape": "Sphere",
+                  "Origin": "Center",
+                  "OriginRotation": false,
+                  "RotationAxis": "None",
+                  "RotationAngle": "None",
+                  "MirrorAxis": "None",
+                  "Material": "Empty",
+                  "FavoriteMaterials": [],
+                  "Mask": "-",
+                  "MaskAbove": "-",
+                  "MaskNot": "-",
+                  "MaskBelow": "-",
+                  "MaskAdjacent": "-",
+                  "MaskNeighbor": "-",
+                  "MaskCommands": [],
+                  "UseMaskCommands": false,
+                  "InvertMask": false
+                }
+              },
+              "OverrideDroppedItemAnimation": false
+            },
+            "27": {
+              "Id": "Rock_Gem_Emerald",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Plant_Leaves_Maple",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "15": {
+              "Id": "Wood_Redwood_Planks",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Gold_Pile_Large",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "31": {
+              "Id": "Rock_Marble_Brick_Stairs",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Furniture_Royal_Magic_Chest_Large",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Rock_Gold_Brick_Pillar_Middle",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "32": {
+              "Id": "Cloth_Block_Wool_Red_Light",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Filter_Air_Block",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "34": {
+              "Id": "Cloth_Roof_Red_Flat",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Recipe_Plant_Seeds_Stamina3",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Gem_Diamond",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "WinterHoliday_Single_Light",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Plant_Seaweed_Grass",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Smooth",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "Metadata": {
+                "ToolData": {
+                  "SmoothStrength": 2
+                },
+                "BrushData": {
+                  "Width": 7,
+                  "Height": 7,
+                  "Thickness": 0,
+                  "Capped": false,
+                  "Shape": "Sphere",
+                  "Origin": "Center",
+                  "OriginRotation": false,
+                  "RotationAxis": "None",
+                  "RotationAngle": "None",
+                  "MirrorAxis": "None",
+                  "Material": "Rock_Stone",
+                  "FavoriteMaterials": [],
+                  "Mask": "-",
+                  "MaskAbove": "-",
+                  "MaskNot": "-",
+                  "MaskBelow": "-",
+                  "MaskAdjacent": "-",
+                  "MaskNeighbor": "-",
+                  "MaskCommands": [],
+                  "UseMaskCommands": false,
+                  "InvertMask": false
+                }
+              },
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Plant_Seaweed_Winter_Blue",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Deco_Book_Pile_Large",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Rock_Gem_Ruby",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Plant_Seaweed_Grass_Tall",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Fluid_Water",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {}
+        },
+        "ActiveHotbarSlot": 5,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 3,
+        "SortType": "Name"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -1856.93505859375,
+              "Y": 128.85755920410156,
+              "Z": 101.18390655517578,
+              "Pitch": -0.4637479782104492,
+              "Yaw": -0.24250993132591248,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Zone1_Shallow_Ocean",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone1_Tier3",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Spawn",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier1",
+          "Zone4_Tier5",
+          "Oceans",
+          "Zone4_Shore_Tier5",
+          "Zone3_Tier3",
+          "Zone3_Tier2",
+          "Zone3_Tier1",
+          "Zone1_Tier1"
+        ],
+        "DiscoveredInstances": [],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "WinterHoliday_Single_Light",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Deco_Book_Pile_Large",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Rock_Gem_Ruby",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "EditorTool_Selection",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Plant_Seaweed_Grass_Tall",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "6": {
+                "Id": "Plant_Seaweed_Grass",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "EditorTool_Smooth",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "Metadata": {
+                  "ToolData": {
+                    "SmoothStrength": 2
+                  },
+                  "BrushData": {
+                    "Width": 7,
+                    "Height": 7,
+                    "Thickness": 0,
+                    "Capped": false,
+                    "Shape": "Sphere",
+                    "Origin": "Center",
+                    "OriginRotation": false,
+                    "RotationAxis": "None",
+                    "RotationAngle": "None",
+                    "MirrorAxis": "None",
+                    "Material": "Rock_Stone",
+                    "FavoriteMaterials": [],
+                    "Mask": "-",
+                    "MaskAbove": "-",
+                    "MaskNot": "-",
+                    "MaskBelow": "-",
+                    "MaskAdjacent": "-",
+                    "MaskNeighbor": "-",
+                    "MaskCommands": [],
+                    "UseMaskCommands": false,
+                    "InvertMask": false
+                  }
+                },
+                "OverrideDroppedItemAnimation": false
+              },
+              "5": {
+                "Id": "Fluid_Water",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "Plant_Seaweed_Winter_Blue",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "KJSHP1SkRXeDHA/iRWWzYQ==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 20.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 115.0,
+          "Modifiers": {
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 25.0,
+          "Modifiers": {
+            "EL_RACE_BASE_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": 0.57771235704422,
+        "Yaw": 0.17815344035625458,
+        "Roll": 0.0
+      }
+    }
+  }
+}

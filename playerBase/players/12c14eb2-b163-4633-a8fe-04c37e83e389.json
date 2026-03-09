@@ -1,0 +1,685 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "STyX_Us - Lvl.4"
+    },
+    "EffectController": {},
+    "EndgamePlayerData": {
+      "DataVersion": 1,
+      "Achievements": {
+        "Completed": {
+          "combat_first_blood": true,
+          "discovery_5": true,
+          "combat_slayer_50": true,
+          "discovery_10": true
+        },
+        "Progress": {
+          "combat_first_blood": 1,
+          "combat_slayer_100": 61,
+          "discovery_all": 16,
+          "combat_slayer_50": 50,
+          "combat_exterminator": 61,
+          "combat_thousand": 61,
+          "discovery_5": 5,
+          "discovery_20": 16,
+          "discovery_10": 10
+        },
+        "CompletedAt": {
+          "combat_first_blood": 1772946593162,
+          "discovery_5": 1772949484860,
+          "combat_slayer_50": 1772956846071,
+          "discovery_10": 1772952269173
+        },
+        "Claimed": {}
+      },
+      "Bounties": {
+        "LastRefreshTimestamp": 1772946593161,
+        "Bounties": {
+          "0": {
+            "TemplateId": "easy_spirit_root_6",
+            "Progress": 0,
+            "Target": 6,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "1": {
+            "TemplateId": "med_frost_feran_4",
+            "Progress": 0,
+            "Target": 4,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "2": {
+            "TemplateId": "hard_boss_2",
+            "Progress": 0,
+            "Target": 2,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_frenzy",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        },
+        "StreakClaimed": false,
+        "TotalBountiesCompleted": 0,
+        "Reputation": 0,
+        "LastWeeklyRefreshTimestamp": 1772946593161,
+        "WeeklyBounty": {
+          "0": {
+            "TemplateId": "weekly_dungeon_crawler",
+            "Progress": 0,
+            "Target": 3,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        }
+      },
+      "Bestiary": {
+        "Entries": {
+          "Skeleton_Fighter": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772951574134,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Larva_Void": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772951538276,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Frog_Green": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772946593162,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Rat": {
+            "KillCount": 28,
+            "FirstKillTimestamp": 1772947146560,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Larva_Silk": {
+            "KillCount": 5,
+            "FirstKillTimestamp": 1772952269173,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Crawler_Void": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772956764420,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snake_Marsh": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772947005394,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Cow": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772950157916,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Scrapper": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772954626557,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Fighter_Wander": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772952638767,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Pig": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772949484860,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Pig_Piglet": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772956704310,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Duck": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772956580970,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Chicken": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772947103320,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Deer_Stag": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772950752687,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Berserker": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772952786654,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          }
+        },
+        "ClaimedDiscoveryMilestone": 0
+      },
+      "VoidPocket": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot3ItemId": "",
+        "Slot3Count": 0,
+        "Slot4ItemId": "",
+        "Slot4Count": 0,
+        "Slot5ItemId": "",
+        "Slot5Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0,
+        "Slot3Durability": -1.0,
+        "Slot4Durability": -1.0,
+        "Slot5Durability": -1.0
+      },
+      "AccessoryPouch": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0
+      },
+      "Locale": "",
+      "ComboPersonalBest": 1
+    },
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "STyX_Us",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -2545.76611328125,
+        "Y": 123.0,
+        "Z": 9863.6240234375
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.901508331298828,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Goblin_Hermit",
+          "TranslationKey": "server.npcRoles.Goblin_Hermit.name",
+          "CapturedTimestamp": 1772946243192,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Toad_Rhino_Magma",
+          "TranslationKey": "server.npcRoles.Toad_Rhino_Magma.name",
+          "CapturedTimestamp": 1772946249794,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Incandescent_Fighter",
+          "TranslationKey": "server.npcRoles.Skeleton_Incandescent_Fighter.name",
+          "CapturedTimestamp": 1772954496330,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Molerat",
+          "TranslationKey": "server.npcRoles.Molerat.name",
+          "CapturedTimestamp": 1772957029099,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "EsFOsrFjRjOo/gTDfoPjiQ==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "35": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 14,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Armor_Copper_Head",
+              "Quantity": 1,
+              "Durability": 80.0,
+              "MaxDurability": 80.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Weapon_Sword_Copper",
+              "Quantity": 1,
+              "Durability": 26.060000000000358,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Tool_Pickaxe_Copper",
+              "Quantity": 1,
+              "Durability": 154.75,
+              "MaxDurability": 200.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Endgame_Weapon_Staff_Copper",
+              "Quantity": 1,
+              "Durability": 50.0,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Tool_Hatchet_Crude",
+              "Quantity": 1,
+              "Durability": 32.25,
+              "MaxDurability": 150.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Food_Wildmeat_Cooked",
+              "Quantity": 12,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 36,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Backpack": {
+          "Id": "Empty"
+        },
+        "ActiveHotbarSlot": 0,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 0,
+        "SortType": "Name"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -2545.76611328125,
+              "Y": 123.0,
+              "Z": 9863.6240234375,
+              "Pitch": -0.3204512298107147,
+              "Yaw": 0.2326570749282837,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [
+              {
+                "BlockPosition": {
+                  "X": -2545,
+                  "Y": 123,
+                  "Z": 9862
+                },
+                "RespawnPosition": {
+                  "X": -2544.024999976158,
+                  "Y": 123.15000000596046,
+                  "Z": 9862.5
+                },
+                "Name": "STyX_Us's bed"
+              }
+            ],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-fd6b2df3-cb60-4c66-a776-b5886adad84f",
+                "Transform": {
+                  "X": -2587.61669921875,
+                  "Y": 120.0,
+                  "Z": 9773.833984375,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 403
+              },
+              {
+                "MarkerId": "death-marker-66fb8f6e-c133-4923-bc45-4714f29304de",
+                "Transform": {
+                  "X": -2544.632080078125,
+                  "Y": 115.0,
+                  "Z": 9804.984375,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 403
+              },
+              {
+                "MarkerId": "death-marker-c76a855b-121d-428f-9a83-b272d4363ccc",
+                "Transform": {
+                  "X": -2562.610107421875,
+                  "Y": 110.0000991821289,
+                  "Z": 9801.6748046875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 403
+              },
+              {
+                "MarkerId": "death-marker-bb1bd76b-81bf-4c10-96e9-bf03c0d890ea",
+                "Transform": {
+                  "X": -2540.453369140625,
+                  "Y": 117.0000991821289,
+                  "Z": 9806.30078125,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 404
+              },
+              {
+                "MarkerId": "death-marker-0a0d13a8-3974-4fe6-8ddb-6f1c468a08bf",
+                "Transform": {
+                  "X": -2545.78857421875,
+                  "Y": 115.0,
+                  "Z": 9803.7177734375,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 404
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Zone1_Spawn",
+          "Zone4_Tier5",
+          "Zone3_Shore_Tier1",
+          "Zone1_Tier3",
+          "Zone1_Tier2",
+          "Zone1_Tier1",
+          "Zone3_Tier1"
+        ],
+        "DiscoveredInstances": [],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Adventure"
+    },
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": []
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "EsFOsrFjRjOo/gTDfoPjiQ==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 20.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 120.0,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 5.0
+            },
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 25.0,
+          "Modifiers": {
+            "EL_RACE_BASE_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.3204512298107147,
+        "Yaw": 0.2326570749282837,
+        "Roll": 0.0
+      }
+    }
+  }
+}
