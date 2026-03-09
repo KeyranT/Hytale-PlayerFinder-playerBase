@@ -1,0 +1,700 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "Mikuzuki - Lvl.1"
+    },
+    "EffectController": {},
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "PlayerLevelData": {
+      "Level": 1,
+      "Experience": 0.0,
+      "AvailableStatPoints": 0,
+      "AllocatedStats": "",
+      "ClaimedRewardLevels": "",
+      "ResetPoints": 0
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "Mikuzuki",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -1763.26123046875,
+        "Y": 153.50048828125,
+        "Z": 6.5919952392578125
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 14.278219223022461,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Frog_Green",
+          "TranslationKey": "server.npcRoles.Frog_Green.name",
+          "CapturedTimestamp": 1771463746106,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Duck",
+          "TranslationKey": "server.npcRoles.Duck.name",
+          "CapturedTimestamp": 1771463750508,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Minnow",
+          "TranslationKey": "server.npcRoles.Minnow.name",
+          "CapturedTimestamp": 1771463755143,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Deer_Doe",
+          "TranslationKey": "server.npcRoles.Deer_Doe.name",
+          "CapturedTimestamp": 1771463760906,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Bunny",
+          "TranslationKey": "server.npcRoles.Bunny.name",
+          "CapturedTimestamp": 1771463762304,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Deer_Stag",
+          "TranslationKey": "server.npcRoles.Deer_Stag.name",
+          "CapturedTimestamp": 1771463764075,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Kweebec_Sapling",
+          "TranslationKey": "server.npcRoles.Kweebec_Razorleaf.name",
+          "CapturedTimestamp": 1771463778852,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Squirrel",
+          "TranslationKey": "server.npcRoles.Squirrel.name",
+          "CapturedTimestamp": 1771463788562,
+          "FoundLocationNameKey": "server.map.region.ForgottenTemple"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Fox",
+          "TranslationKey": "server.npcRoles.Fox.name",
+          "CapturedTimestamp": 1771464396921,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Skeleton_Fighter",
+          "TranslationKey": "server.npcRoles.Skeleton_Fighter.name",
+          "CapturedTimestamp": 1771532986647,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Spider",
+          "TranslationKey": "server.npcRoles.Spider.name",
+          "CapturedTimestamp": 1771532991577,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "DeathProcessedMarker": {},
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "rb8ac85wTGSBLapy3iwg3g==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "0": {
+              "Id": "Plant_Fruit_Azure",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "33": {
+              "Id": "Furniture_Temple_Scarak_Brazier",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "35": {
+              "Id": "Rock_Crystal_Cyan_Large",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Furniture_Temple_Dark_Brazier",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Rock_Shale_Cobble_Wall",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Crystal_Purple",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "28": {
+              "Id": "Endgame_Daggers_Prisma",
+              "Quantity": 1,
+              "Durability": 400.0,
+              "MaxDurability": 400.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "14": {
+              "Id": "Furniture_Human_Ruins_Brazier",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Fluid_Slime_Red",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Soil_Dirt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Plant_Flower_Common_Purple2",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Potion_Morph_FrostDragon",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Potion_Morph_FrostDragon",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Potion_Morph_FrostDragon",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "32": {
+              "Id": "Furniture_Temple_Light_Lantern",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Rock_Marble_Brick_Decorative",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Crystal_White",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "34": {
+              "Id": "Rock_Shale_Brick_Pillar_Middle",
+              "Quantity": 100,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Potion_Morph_FrostDragon",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Rock_Marble_Brick_Pillar_Middle",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "22": {
+              "Id": "Furniture_Temple_Scarak_Statue",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Rock_Shale_Brick_Smooth_Half",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Weapon_Daggers_Hedera",
+              "Quantity": 1,
+              "Durability": 290.0,
+              "MaxDurability": 290.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Bench_Memories",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Spawn_Temple_Helix",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Deco_Iron_Bars_Platforms",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Rock_Shale_Brick_Half",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Endgame_Sword_Prisma",
+              "Quantity": 1,
+              "Durability": 350.0,
+              "MaxDurability": 350.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Rock_Marble_Brick",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {}
+        },
+        "Backpack": {
+          "Id": "Empty"
+        },
+        "ActiveHotbarSlot": 5,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": -1,
+        "SortType": "Name"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -1798.8748779296875,
+              "Y": 130.0,
+              "Z": 25.167686462402344,
+              "Pitch": -0.3253021538257599,
+              "Yaw": 1.6925673484802246,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-84345305-c36d-4fa7-9b07-f8799cad58af",
+                "Transform": {
+                  "X": -1812.9766845703125,
+                  "Y": 129.0,
+                  "Z": -37.131080627441406,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 1
+              },
+              {
+                "MarkerId": "death-marker-a27d9811-d573-4459-a584-d98fae01ce3b",
+                "Transform": {
+                  "X": -1856.0025634765625,
+                  "Y": -41.15260314941406,
+                  "Z": 95.09249877929688,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 1
+              },
+              {
+                "MarkerId": "death-marker-153682d6-a23a-46f1-9d2d-59109cbaefef",
+                "Transform": {
+                  "X": -1727.67529296875,
+                  "Y": 129.0,
+                  "Z": -0.24535992741584778,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 2
+              },
+              {
+                "MarkerId": "death-marker-a00317c8-4b9e-47f2-92ff-4c50d24b633a",
+                "Transform": {
+                  "X": -1725.149169921875,
+                  "Y": 124.0,
+                  "Z": 6.788962364196777,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 2
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "Zone1_Spawn",
+          "Zone1_Temple",
+          "ForgottenTemple",
+          "Zone1_Tier3",
+          "Zone1_Tier2",
+          "Zone1_Tier1",
+          "Zone1_Shallow_Ocean"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "FmS9uU3OSa24SMN5TAkCrg==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Rock_Shale_Brick_Smooth_Half",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Rock_Shale_Brick_Half",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Endgame_Sword_Prisma",
+                "Quantity": 1,
+                "Durability": 350.0,
+                "MaxDurability": 350.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Weapon_Daggers_Hedera",
+                "Quantity": 1,
+                "Durability": 290.0,
+                "MaxDurability": 290.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Rock_Marble_Brick",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "6": {
+                "Id": "Bench_Memories",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Spawn_Temple_Helix",
+                "Quantity": 6,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "Deco_Iron_Bars_Platforms",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": []
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "rb8ac85wTGSBLapy3iwg3g==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 20.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 116.5,
+          "Modifiers": {
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            },
+            "SKILL_BONUS_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 1.5
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 25.0,
+          "Modifiers": {
+            "EL_RACE_BASE_STAMINA": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 15.0
+            }
+          }
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.32705241441726685,
+        "Yaw": 1.5896999835968018,
+        "Roll": 0.0
+      }
+    }
+  }
+}

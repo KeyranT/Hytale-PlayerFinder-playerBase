@@ -1,0 +1,1454 @@
+{
+  "Components": {
+    "Nameplate": {
+      "Text": "Raynbock"
+    },
+    "EffectController": {},
+    "EndgamePlayerData": {
+      "DataVersion": 1,
+      "Achievements": {
+        "Completed": {
+          "combat_first_blood": true,
+          "combat_slayer_100": true,
+          "discovery_all": true,
+          "discovery_5": true,
+          "discovery_20": true,
+          "combat_slayer_50": true,
+          "discovery_10": true
+        },
+        "Progress": {
+          "combat_first_blood": 1,
+          "combat_slayer_100": 100,
+          "discovery_all": 30,
+          "combat_slayer_50": 50,
+          "combat_exterminator": 436,
+          "combat_thousand": 436,
+          "discovery_5": 5,
+          "discovery_20": 20,
+          "discovery_10": 10
+        },
+        "CompletedAt": {
+          "combat_first_blood": 1772927897716,
+          "combat_slayer_100": 1772937877575,
+          "discovery_all": 1772936303970,
+          "discovery_5": 1772929277484,
+          "discovery_20": 1772932453749,
+          "combat_slayer_50": 1772932536781,
+          "discovery_10": 1772929912290
+        },
+        "Claimed": {
+          "combat_slayer_100": true,
+          "discovery_all": true,
+          "combat_slayer_50": true,
+          "discovery_20": true,
+          "discovery_10": true
+        }
+      },
+      "Bounties": {
+        "LastRefreshTimestamp": 1773014301939,
+        "Bounties": {
+          "0": {
+            "TemplateId": "easy_shadow_3",
+            "Progress": 0,
+            "Target": 3,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_x3",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "1": {
+            "TemplateId": "med_damage_2000",
+            "Progress": 2000,
+            "Target": 2000,
+            "Completed": true,
+            "Claimed": false,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          },
+          "2": {
+            "TemplateId": "hard_speed_hedera",
+            "Progress": 0,
+            "Target": 1,
+            "Completed": false,
+            "Claimed": false,
+            "BonusType": "combo_frenzy",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        },
+        "StreakClaimed": false,
+        "TotalBountiesCompleted": 1,
+        "Reputation": 0,
+        "LastWeeklyRefreshTimestamp": 1772927897713,
+        "WeeklyBounty": {
+          "0": {
+            "TemplateId": "weekly_exterminator",
+            "Progress": 100,
+            "Target": 100,
+            "Completed": true,
+            "Claimed": true,
+            "BonusType": "",
+            "BonusCompleted": false,
+            "Metadata": ""
+          }
+        }
+      },
+      "Bestiary": {
+        "Entries": {
+          "Boar_Piglet": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772933315377,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Rat": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772937887409,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Hound_Bleached": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772938946652,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Lizard_Sand": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772941792012,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Tiger_Sabertooth": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772941854735,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snapjaw": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772943249640,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Deer_Doe": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772941699695,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Scarak_Seeker": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772944139398,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Eel_Moray": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772941975623,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Armadillo": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772942000040,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Spawn_Void": {
+            "KillCount": 10,
+            "FirstKillTimestamp": 1772929231991,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Hyena": {
+            "KillCount": 5,
+            "FirstKillTimestamp": 1773001335510,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Miner": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772936303970,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Scout": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772932093041,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Moose_Cow": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772941071126,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Trork_Sentry": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002000465,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Scarak_Louse": {
+            "KillCount": 9,
+            "FirstKillTimestamp": 1772945155076,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Stalker": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773001970342,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Archer": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772943119908,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dungeon_Scarak_Louse": {
+            "KillCount": 12,
+            "FirstKillTimestamp": 1772945062210,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Endgame_Saurian_Warrior": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002032419,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Golem_Crystal_Flame": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773015189301,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Archer": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772939364110,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Deer_Stag": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772941666275,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Ranger_Patrol": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772989947253,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Berserker": {
+            "KillCount": 18,
+            "FirstKillTimestamp": 1772932716416,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dragon_Fire": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772939730925,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Boar": {
+            "KillCount": 14,
+            "FirstKillTimestamp": 1772929905436,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Chicken_Undead": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772930578117,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Rabbit": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772929912290,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Soldier": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773013404355,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Bat_Ice": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772937890141,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Pig_Wild_Piglet": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772932031028,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Ranger": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773001020802,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Scarak_Fighter": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772945172905,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Mouflon_Lamb": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772932536781,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Eye_Void": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772946386300,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Sand_Assassin": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773012430864,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Bear_Grizzly": {
+            "KillCount": 11,
+            "FirstKillTimestamp": 1772932161929,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dragon_Merchant": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772927937420,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Endgame_Ghoul": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002027025,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Toad_Rhino_Magma": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1773014301941,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Archmage": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1773001672140,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dungeon_Skeleton_Sand_Archer": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773016815701,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Lobber": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772944382543,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Fighter": {
+            "KillCount": 7,
+            "FirstKillTimestamp": 1772929492699,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Incandescent_Fighter": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772944272946,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Scorpion": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772944241890,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Toad_Rhino": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1773000856153,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snail_Frost": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772990257384,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Yeti": {
+            "KillCount": 7,
+            "FirstKillTimestamp": 1772932401435,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Archer": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772929962568,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snail_Magma": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772944580918,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Mage": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773018253695,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Brute": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1773000794423,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Tortoise": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772942431277,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Archmage": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773012741979,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Wolf_Black": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772929632061,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Ranger": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773012794051,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Larva_Void": {
+            "KillCount": 11,
+            "FirstKillTimestamp": 1772928799891,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Bluebird": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773025393738,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Praetorian_Wander": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773021745999,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Soldier_Wander": {
+            "KillCount": 26,
+            "FirstKillTimestamp": 1772939093067,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dungeon_Scarak_Fighter": {
+            "KillCount": 7,
+            "FirstKillTimestamp": 1772945043208,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Crawler_Void": {
+            "KillCount": 24,
+            "FirstKillTimestamp": 1772929277484,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Trillodon": {
+            "KillCount": 7,
+            "FirstKillTimestamp": 1772940899506,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Dungeon_Skeleton_Sand_Assassin": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773016769635,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Knight": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772943485843,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Lancer": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772939815621,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Fox": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772935218853,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Fighter_Wander": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772929519013,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Incandescent_Mage": {
+            "KillCount": 3,
+            "FirstKillTimestamp": 1772944530584,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snake_Cobra": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1772934895433,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Sand_Mage": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773012332105,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Golem_Crystal_Earth": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772992748786,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Endgame_Saurian_Hunter": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002056032,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Soldier": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772931257413,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Fighter": {
+            "KillCount": 21,
+            "FirstKillTimestamp": 1772932453749,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Wolf_Outlander_Sorcerer": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772985284655,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Golem_Firesteel": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773019603322,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Burnt_Wizard": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002098633,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Sorcerer": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772985262224,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Incandescent_Head": {
+            "KillCount": 4,
+            "FirstKillTimestamp": 1772944414855,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Mage": {
+            "KillCount": 5,
+            "FirstKillTimestamp": 1772988629805,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Snake_Rattle": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772979721536,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Crab": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772941457657,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Mouflon": {
+            "KillCount": 11,
+            "FirstKillTimestamp": 1772932530273,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Crocodile": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1772944020862,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Golem_Crystal_Frost": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773012895772,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Pig_Undead": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773021938432,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772933742898,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Frost_Knight": {
+            "KillCount": 6,
+            "FirstKillTimestamp": 1773012732079,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Pig_Wild": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772932001938,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Endgame_Werewolf": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773002085660,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Goblin_Scrapper": {
+            "KillCount": 19,
+            "FirstKillTimestamp": 1772927897714,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Spirit_Frost": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773013778016,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Skeleton_Soldier": {
+            "KillCount": 9,
+            "FirstKillTimestamp": 1772940206028,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Outlander_Hunter": {
+            "KillCount": 14,
+            "FirstKillTimestamp": 1772933015766,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Moose_Bull": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772935152893,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Spider": {
+            "KillCount": 5,
+            "FirstKillTimestamp": 1772931967867,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Endgame_Toad_Frost": {
+            "KillCount": 1,
+            "FirstKillTimestamp": 1773013582131,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Wraith": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1773022131292,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          },
+          "Ram": {
+            "KillCount": 2,
+            "FirstKillTimestamp": 1772945174273,
+            "Discovered": true,
+            "ClaimedMilestone": 0
+          }
+        },
+        "ClaimedDiscoveryMilestone": 0
+      },
+      "VoidPocket": {
+        "Slot0ItemId": "",
+        "Slot0Count": 0,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot3ItemId": "",
+        "Slot3Count": 0,
+        "Slot4ItemId": "",
+        "Slot4Count": 0,
+        "Slot5ItemId": "",
+        "Slot5Count": 0,
+        "Slot0Durability": -1.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0,
+        "Slot3Durability": -1.0,
+        "Slot4Durability": -1.0,
+        "Slot5Durability": -1.0
+      },
+      "AccessoryPouch": {
+        "Slot0ItemId": "Endgame_Accessory_Blazefist",
+        "Slot0Count": 1,
+        "Slot1ItemId": "",
+        "Slot1Count": 0,
+        "Slot2ItemId": "",
+        "Slot2Count": 0,
+        "Slot0Durability": 0.0,
+        "Slot1Durability": -1.0,
+        "Slot2Durability": -1.0
+      },
+      "Locale": "",
+      "ComboPersonalBest": 2
+    },
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "DisplayName": {
+      "DisplayName": {
+        "RawText": "Raynbock",
+        "Bold": null,
+        "Italic": null,
+        "Monospace": null,
+        "Underline": null
+      }
+    },
+    "UIComponentList": {},
+    "Transform": {
+      "Position": {
+        "X": -1769.46240234375,
+        "Y": 82.0,
+        "Z": 25.755020141601562
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 23.393693923950195,
+        "Roll": 0.0
+      }
+    },
+    "PlayerMemories": {
+      "Capacity": 48,
+      "Memories": [
+        {
+          "Id": "NPC",
+          "NPCRole": "Ram_Lamb",
+          "TranslationKey": "server.npcRoles.Ram_Lamb.name",
+          "CapturedTimestamp": 1773016591303,
+          "FoundLocationNameKey": "server.map.region.Zone2_Tier3"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Goblin_Hermit",
+          "TranslationKey": "server.npcRoles.Goblin_Hermit.name",
+          "CapturedTimestamp": 1773019579172,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Golem_Firesteel",
+          "TranslationKey": "server.npcRoles.Golem_Firesteel.name",
+          "CapturedTimestamp": 1773019598415,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier2"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Shark_Hammerhead",
+          "TranslationKey": "server.npcRoles.Shark_Hammerhead.name",
+          "CapturedTimestamp": 1773020822817,
+          "FoundLocationNameKey": "server.map.region.Oceans"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Trork_Guard",
+          "TranslationKey": "server.npcRoles.Trork_Guard.name",
+          "CapturedTimestamp": 1773021025010,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Pig_Undead",
+          "TranslationKey": "server.npcRoles.Pig_Undead.name",
+          "CapturedTimestamp": 1773021909742,
+          "FoundLocationNameKey": "server.map.region.Zone4_Tier5"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Tang_Sailfin",
+          "TranslationKey": "server.npcRoles.Tang_Sailfin.name",
+          "CapturedTimestamp": 1773023289946,
+          "FoundLocationNameKey": "server.map.region.Zone1_Shallow_Ocean"
+        },
+        {
+          "Id": "NPC",
+          "NPCRole": "Sparrow",
+          "TranslationKey": "server.npcRoles.Sparrow.name",
+          "CapturedTimestamp": 1773025599136,
+          "FoundLocationNameKey": "server.map.region.Zone1_Tier1"
+        }
+      ]
+    },
+    "ParryEffect": {
+      "SelectedPveEffect": "SPEED",
+      "SelectedPvpEffect": "SPEED"
+    },
+    "BuilderTools": {
+      "SelectionHistory": true
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "n+dB0sqmTryzB9ju7LhVUQ==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "Storage": {
+          "Id": "Simple",
+          "Capacity": 36,
+          "Items": {
+            "0": {
+              "Id": "Plant_Moss_Blue",
+              "Quantity": 7,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Ingredient_Fabric_Scrap_Cindercloth",
+              "Quantity": 6,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Coin_Copper",
+              "Quantity": 33,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "12": {
+              "Id": "Ingredient_Bar_Thorium",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "13": {
+              "Id": "Teleporter",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Ingredient_Fibre",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Ingredient_Bone_Fragment",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "11": {
+              "Id": "Deco_Bone_Skulls",
+              "Quantity": 8,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "10": {
+              "Id": "Plant_Crop_Mushroom_Common_Blue",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Ingredient_Hide_Heavy",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Ingredient_Fabric_Scrap_Linen",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Soil_Ash",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Fire_Essence",
+              "Quantity": 9,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Armor": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "0": {
+              "Id": "Armor_Cobalt_Head",
+              "Quantity": 1,
+              "Durability": 62.400000000000006,
+              "MaxDurability": 108.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Cobalt_Hands",
+              "Quantity": 1,
+              "Durability": 68.5,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Cobalt_Chest",
+              "Quantity": 1,
+              "Durability": 74.0,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Cobalt_Legs",
+              "Quantity": 1,
+              "Durability": 64.4,
+              "MaxDurability": 108.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "HotBar": {
+          "Id": "Simple",
+          "Capacity": 9,
+          "Items": {
+            "0": {
+              "Id": "Tool_Pickaxe_Thorium",
+              "Quantity": 1,
+              "Durability": 67.39999999999999,
+              "MaxDurability": 193.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Tool_Hatchet_Thorium",
+              "Quantity": 1,
+              "Durability": 193.0,
+              "MaxDurability": 325.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Endgame_Portal_Frozen_Dungeon",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Rock_Sandstone_Cobble",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "Endgame_Accessory_Pouch",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Weapon_Daggers_Cobalt",
+              "Quantity": 1,
+              "Durability": 30.900000000000624,
+              "MaxDurability": 90.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Food_Kebab_Vegetable",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Weapon_Spellbook_Rekindle_Embers",
+              "Quantity": 5,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Feathers_Blue",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Utility": {
+          "Id": "Simple",
+          "Capacity": 4,
+          "Items": {
+            "1": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 10,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Weapon_Shield_Doomed",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "Backpack": {
+          "Id": "Simple",
+          "Capacity": 18,
+          "Items": {
+            "0": {
+              "Id": "Plant_Crop_Mana3",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveHotbarSlot": 1,
+        "Tool": {
+          "Id": "Simple",
+          "Capacity": 23,
+          "Items": {
+            "0": {
+              "Id": "EditorTool_Paint",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "EditorTool_Selection",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "EditorTool_Line",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "EditorTool_Sculpt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "EditorTool_Paste",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "EditorTool_Layers",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
+        },
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": 1,
+        "SortType": "Name"
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "default",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": -1769.46240234375,
+              "Y": 82.0,
+              "Z": 25.755020141601562,
+              "Pitch": -0.1925000101327896,
+              "Yaw": -2.524447202682495,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-1f1c0070-aeb2-4b96-8e88-4eb7529e536a",
+                "Transform": {
+                  "X": -2267.5107421875,
+                  "Y": 115.130126953125,
+                  "Z": 2667.396728515625,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 400
+              },
+              {
+                "MarkerId": "death-marker-d1ae1104-d375-4f5f-907c-1d07cc1a82c6",
+                "Transform": {
+                  "X": 4902.6748046875,
+                  "Y": 138.0,
+                  "Z": 5392.6748046875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 415
+              },
+              {
+                "MarkerId": "death-marker-7ba03c99-389e-4901-92a9-48ff7a0ecdee",
+                "Transform": {
+                  "X": -1505.3250732421875,
+                  "Y": 33.16212844848633,
+                  "Z": -4195.6748046875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 416
+              },
+              {
+                "MarkerId": "death-marker-566562c4-ef4b-43a9-b65e-d4baa8d882ca",
+                "Transform": {
+                  "X": -1283.83837890625,
+                  "Y": 152.0,
+                  "Z": -4438.6748046875,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 425
+              }
+            ],
+            "UserMarkers": [
+              {
+                "Id": "user_personal_e793528c-c3a9-47a2-96dd-fd26c812f597",
+                "X": -229.0,
+                "Z": 6384.0,
+                "Icon": "UserA.png",
+                "ColorTint": "#ffffff",
+                "CreatedByUuid": {
+                  "$binary": "n+dB0sqmTryzB9ju7LhVUQ==",
+                  "$type": "04"
+                },
+                "CreatedByName": "Raynbock"
+              },
+              {
+                "Id": "user_personal_0af3e828-b9b5-4151-bbed-7ce3fca79e1e",
+                "X": -2529.0,
+                "Z": 3723.0,
+                "Icon": "UserD.png",
+                "ColorTint": "#ece133",
+                "CreatedByUuid": {
+                  "$binary": "n+dB0sqmTryzB9ju7LhVUQ==",
+                  "$type": "04"
+                },
+                "CreatedByName": "Raynbock"
+              }
+            ]
+          }
+        },
+        "DiscoveredZones": [
+          "Zone1_Shore",
+          "Zone3_Tier1",
+          "Zone3_Tier2",
+          "Zone3_Tier3",
+          "Zone2_Shallow_Ocean",
+          "ForgottenTemple",
+          "Zone3_Shore_Tier1",
+          "Zone3_Shore_Tier2",
+          "Zone3_Shore_Tier3",
+          "Zone2_Tier1",
+          "Zone2_Tier2",
+          "Zone2_Tier3",
+          "Zone1_Shallow_Ocean",
+          "Zone3_Shallow_Ocean_Tier1",
+          "Zone3_Shallow_Ocean_Tier2",
+          "Zone3_Shallow_Ocean_Tier3",
+          "Zone2_Shore",
+          "Oceans",
+          "Zone4_Tier5",
+          "Zone4_Tier4",
+          "Zone1_Temple",
+          "Zone1_Tier2",
+          "Zone4_Shore_Tier4",
+          "Zone4_Shore_Tier5",
+          "Zone4_Shallow_Ocean_Tier4",
+          "Zone4_Shallow_Ocean_Tier5",
+          "Zone1_Tier3",
+          "Zone1_Tier1",
+          "Zone1_Spawn"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "DqDJ1HthRuSsok2+yeKQ0Q==",
+            "$type": "04"
+          },
+          {
+            "$binary": "YeVscp7CT423lKTI7DrNdg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "NiZujsLmTA25v8BVHgFBtA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "QZ0uOkytSjitFypD2ob/cg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "fCDdYDWISmiqOzh2l9jYYA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "p5pp/NqDQ3CEcuwkeIQMtQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "mGOHNB3LQZ25w1q0Za3Clg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "XAp2tyXuRoCWhI4jZzuNUA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "d21ImCz/TjKmrJCxrFRYgQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "/Eir24xDQYe9vFSN/Yv87A==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Adventure"
+    },
+    "HitboxCollision": {
+      "HitboxCollisionConfigIndex": 1
+    },
+    "UniqueItemUsages": {
+      "UniqueItemUsed": [
+        "Upgrade_Backpack_2",
+        "Upgrade_Backpack_1"
+      ]
+    },
+    "Instance": {},
+    "UUID": {
+      "UUID": {
+        "$binary": "n+dB0sqmTryzB9ju7LhVUQ==",
+        "$type": "04"
+      }
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 20.0,
+          "Modifiers": {
+            "EL_RACE_BASE_FLOW": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 135.56361389160156,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 61.0
+            },
+            "EL_RACE_BASE_HEALTH": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 50.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 10.0
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 6.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 27.0
+            }
+          }
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.1925000101327896,
+        "Yaw": -2.524447202682495,
+        "Roll": 0.0
+      }
+    }
+  }
+}
