@@ -29,11 +29,13 @@ class PlayerSearchApp:
         self.root.title("Player JSON Search - playerBase")
         self.root.geometry("1100x700")
 
+        self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self.folder_path = ""
         self.player_data = []
         self.filtered_items = []
 
         self.build_ui()
+        self.auto_load_playerbase()
 
     def build_ui(self):
         top_frame = tk.Frame(self.root)
@@ -100,8 +102,20 @@ class PlayerSearchApp:
         text_scroll.pack(side="left", fill="y")
         self.details_text.config(yscrollcommand=text_scroll.set)
 
+    def auto_load_playerbase(self):
+        default_playerbase = os.path.join(self.base_dir, "playerBase")
+
+        if os.path.isdir(default_playerbase):
+            self.folder_path = default_playerbase
+            self.folder_label.config(text=f"Selected folder: {default_playerbase}")
+            self.load_json_files()
+
     def select_folder(self):
-        folder = filedialog.askdirectory(title="Select playerBase folder")
+        folder = filedialog.askdirectory(
+            title="Select playerBase folder",
+            initialdir=self.base_dir
+        )
+
         if folder:
             self.folder_path = folder
             self.folder_label.config(text=f"Selected folder: {folder}")
@@ -143,7 +157,9 @@ class PlayerSearchApp:
             except Exception as e:
                 errors.append(f"{file_name} : {e}")
 
-        self.player_data.sort(key=lambda x: (x["display_name"] or x["nameplate_name"] or x["file_name"]).lower())
+        self.player_data.sort(
+            key=lambda x: (x["display_name"] or x["nameplate_name"] or x["file_name"]).lower()
+        )
         self.update_result_list(self.player_data)
 
         msg = f"{len(self.player_data)} JSON file(s) loaded out of {total_files}."
@@ -243,7 +259,11 @@ class PlayerSearchApp:
 
         for item in items:
             main_name = item["display_name"] or item["nameplate_name"] or "Unknown"
-            secondary_name = item["nameplate_name"] if item["nameplate_name"] and item["nameplate_name"] != main_name else ""
+            secondary_name = (
+                item["nameplate_name"]
+                if item["nameplate_name"] and item["nameplate_name"] != main_name
+                else ""
+            )
 
             if secondary_name:
                 display = f"{main_name} ({secondary_name})  |  {item['file_name']}"
