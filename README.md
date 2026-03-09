@@ -1,24 +1,24 @@
-# Hytale-PlayerFinder-playerBase
+# Hytale PlayerFinder (playerBase)
 
-PlayerFinder est un petit outil Python permettant de rechercher rapidement un joueur dans un dossier contenant des fichiers JSON de sauvegarde.
-Il est conçu pour analyser automatiquement tous les fichiers dans un dossier `playerBase` et afficher les informations du joueur correspondant.
+PlayerFinder is a lightweight Python tool designed to quickly search for player data inside JSON save files.
+It automatically scans all files inside a `playerBase` folder and displays the information related to the searched player.
 
-L'outil est particulièrement utile pour les administrateurs de serveur qui doivent retrouver rapidement les données d'un joueur.
-
----
-
-## Fonctionnalités
-
-* Recherche d'un joueur par nom
-* Analyse automatique de tous les fichiers `.json`
-* Détection du joueur même si le nom contient un niveau (ex: `ImNotDev - Lvl.1`)
-* Affichage du fichier où le joueur a été trouvé
-* Interface simple avec barre de recherche
-* Compatible avec de grandes bases de joueurs
+This tool is particularly useful for server administrators who need to quickly locate and inspect player data.
 
 ---
 
-## Structure attendue
+## Features
+
+* Search for a player by name
+* Automatically scans all `.json` files in the `playerBase` folder
+* Detects players even if their name contains a level tag (example: `ImNotDev - Lvl.1`)
+* Displays the file where the player data was found
+* Simple interface with a search bar
+* Works with large player databases
+
+---
+
+## Expected Structure
 
 ```
 project-folder
@@ -30,48 +30,74 @@ project-folder
 │   └─ player3.json
 ```
 
-Le dossier `playerBase` doit contenir tous les fichiers JSON des joueurs.
+The `playerBase` folder must contain the JSON files for each player.
 
 ---
 
 ## Installation
 
-### 1. Cloner le projet
+### 1. Clone the repository
 
 ```
 git clone https://github.com/USERNAME/PlayerFinder.git
 cd PlayerFinder
 ```
 
-### 2. Installer Python
+### 2. Install Python
 
-Python 3.10 ou plus récent est recommandé.
+Python **3.10 or newer** is recommended.
 
 https://www.python.org/downloads/
 
 ---
 
-## Utilisation
+## Usage
 
-Lancer simplement le script :
+First, download the player data from your Hytale world or server.
+
+The player save files can be found here:
+
+```
+hytale/server/universe/players
+```
+
+Copy all the JSON files from this folder into the `playerBase` folder of this project.
+
+Example structure:
+
+```
+project-folder
+│
+├─ playerFinder.py
+├─ playerBase
+│   ├─ player1.json
+│   ├─ player2.json
+│   └─ player3.json
+```
+
+---
+
+Then run the script:
 
 ```
 python playerFinder.py
 ```
 
-Ensuite :
+Then:
 
-1. entrer le nom du joueur
-2. le programme recherche dans tous les fichiers JSON
-3. les informations trouvées sont affichées
+1. enter the player name
+2. the program scans all JSON files
+3. matching player data will be displayed
 
-La recherche fonctionne même si le nom contient un niveau :
+The search also works if the player name contains a level tag.
+
+Example search:
 
 ```
 ImNotDev
 ```
 
-va aussi trouver :
+Will also match:
 
 ```
 ImNotDev - Lvl.1
@@ -79,23 +105,37 @@ ImNotDev - Lvl.1
 
 ---
 
-## Création d'un exécutable (.exe)
+## Windows Executable
 
-Pour créer un fichier portable :
+A **precompiled Windows executable** is already included inside the `dist` folder.
 
-Installer PyInstaller :
+```
+dist/playerFinder.exe
+```
+
+This version can be used **without installing Python**.
+
+Simply run the `.exe` file and the program will start.
+
+---
+
+## Modifying the Tool
+
+If you want to modify the tool or improve it, you can edit the Python source code (`playerFinder.py`) and recompile it yourself.
+
+Install PyInstaller:
 
 ```
 pip install pyinstaller
 ```
 
-Compiler :
+Then compile the executable:
 
 ```
 python -m PyInstaller --onefile --windowed playerFinder.py
 ```
 
-Le fichier sera généré ici :
+This will generate a new executable in:
 
 ```
 dist/playerFinder.exe
@@ -103,26 +143,25 @@ dist/playerFinder.exe
 
 ---
 
-## Technologies utilisées
+## Technologies Used
 
 * Python
 * JSON parsing
-* Tkinter (interface)
+* Tkinter (GUI)
 
 ---
 
 ## Contribution
 
-Les contributions sont les bienvenues.
+Contributions are welcome.
 
-1. Fork le projet
-2. Crée une branche
-3. Fais tes modifications
-4. Ouvre une Pull Request
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a Pull Request
 
 ---
 
-## Licence
+## License
 
-Projet open source libre d'utilisation.
-
+This project is open-source and free to use.
