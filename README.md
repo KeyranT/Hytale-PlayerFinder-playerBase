@@ -11,7 +11,7 @@ L'outil est particulièrement utile pour les administrateurs de serveur qui doiv
 
 * Recherche d'un joueur par nom
 * Analyse automatique de tous les fichiers `.json`
-* Détection du joueur même si le nom contient un niveau (ex: `Tubblemaker - Lvl.1`)
+* Détection du joueur même si le nom contient un niveau (ex: `ImNotDev - Lvl.1`)
 * Affichage du fichier où le joueur a été trouvé
 * Interface simple avec barre de recherche
 * Compatible avec de grandes bases de joueurs
@@ -68,13 +68,13 @@ Ensuite :
 La recherche fonctionne même si le nom contient un niveau :
 
 ```
-Tubblemaker
+ImNotDev
 ```
 
 va aussi trouver :
 
 ```
-Tubblemaker - Lvl.1
+ImNotDev - Lvl.1
 ```
 
 ---
