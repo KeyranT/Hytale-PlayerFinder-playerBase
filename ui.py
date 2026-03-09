@@ -1,4 +1,5 @@
 import os
+import sys
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
@@ -11,7 +12,11 @@ class PlayerSearchApp:
         self.root.title("Hytale PlayerFinder")
         self.root.geometry("1300x800")
 
-        self.base_dir = os.path.dirname(os.path.abspath(__file__))
+        if getattr(sys, "frozen", False):
+            self.base_dir = os.path.dirname(sys.executable)
+        else:
+            self.base_dir = os.path.dirname(os.path.abspath(__file__))
+
         self.folder_path = ""
         self.player_data = []
         self.filtered_items = []
@@ -93,9 +98,16 @@ class PlayerSearchApp:
             self.load_json_files()
 
     def select_folder(self):
+        default_playerbase = os.path.join(self.base_dir, "playerBase")
+
+        if os.path.isdir(default_playerbase):
+            start_dir = default_playerbase
+        else:
+            start_dir = self.base_dir
+
         folder = filedialog.askdirectory(
             title="Select playerBase folder",
-            initialdir=self.base_dir
+            initialdir=start_dir
         )
 
         if folder:
