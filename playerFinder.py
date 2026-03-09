@@ -11,13 +11,13 @@ def normalize_player_name(name):
 
     name = str(name).strip().lower()
 
-    # Retire les suffixes du style :
+    # Remove suffixes like:
     # " - Lvl.1"
     # " - lvl 25"
     # " - Level 10"
     name = re.sub(r"\s*-\s*(lvl|level)\.?\s*\d+\s*$", "", name, flags=re.IGNORECASE)
 
-    # Retire les espaces multiples
+    # Remove multiple spaces
     name = re.sub(r"\s+", " ", name).strip()
 
     return name
@@ -26,7 +26,7 @@ def normalize_player_name(name):
 class PlayerSearchApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Recherche joueurs JSON - playerBase")
+        self.root.title("Player JSON Search - playerBase")
         self.root.geometry("1100x700")
 
         self.folder_path = ""
@@ -41,7 +41,7 @@ class PlayerSearchApp:
 
         self.folder_label = tk.Label(
             top_frame,
-            text="Aucun dossier sélectionné",
+            text="No folder selected",
             anchor="w",
             justify="left"
         )
@@ -52,20 +52,20 @@ class PlayerSearchApp:
 
         tk.Button(
             button_frame,
-            text="Choisir le dossier playerBase",
+            text="Select playerBase folder",
             command=self.select_folder
         ).pack(side="left")
 
         tk.Button(
             button_frame,
-            text="Recharger les JSON",
+            text="Reload JSON files",
             command=self.load_json_files
         ).pack(side="left", padx=5)
 
         search_frame = tk.Frame(self.root)
         search_frame.pack(fill="x", padx=10, pady=5)
 
-        tk.Label(search_frame, text="Rechercher un joueur :").pack(side="left")
+        tk.Label(search_frame, text="Search player:").pack(side="left")
 
         self.search_var = tk.StringVar()
         self.search_var.trace_add("write", self.on_search)
@@ -73,7 +73,7 @@ class PlayerSearchApp:
         self.search_entry = tk.Entry(search_frame, textvariable=self.search_var, width=50)
         self.search_entry.pack(side="left", padx=5)
 
-        self.result_count_label = tk.Label(search_frame, text="0 résultat")
+        self.result_count_label = tk.Label(search_frame, text="0 results")
         self.result_count_label.pack(side="left", padx=10)
 
         main_frame = tk.Frame(self.root)
@@ -101,15 +101,15 @@ class PlayerSearchApp:
         self.details_text.config(yscrollcommand=text_scroll.set)
 
     def select_folder(self):
-        folder = filedialog.askdirectory(title="Sélectionner le dossier playerBase")
+        folder = filedialog.askdirectory(title="Select playerBase folder")
         if folder:
             self.folder_path = folder
-            self.folder_label.config(text=f"Dossier sélectionné : {folder}")
+            self.folder_label.config(text=f"Selected folder: {folder}")
             self.load_json_files()
 
     def load_json_files(self):
         if not self.folder_path:
-            messagebox.showwarning("Attention", "Choisis d'abord un dossier playerBase.")
+            messagebox.showwarning("Warning", "Please select a playerBase folder first.")
             return
 
         self.player_data = []
@@ -123,7 +123,7 @@ class PlayerSearchApp:
         try:
             file_names = os.listdir(self.folder_path)
         except Exception as e:
-            messagebox.showerror("Erreur", f"Impossible de lire le dossier :\n{e}")
+            messagebox.showerror("Error", f"Unable to read folder:\n{e}")
             return
 
         for file_name in file_names:
@@ -146,14 +146,14 @@ class PlayerSearchApp:
         self.player_data.sort(key=lambda x: (x["display_name"] or x["nameplate_name"] or x["file_name"]).lower())
         self.update_result_list(self.player_data)
 
-        msg = f"{len(self.player_data)} fichier(s) JSON chargé(s) sur {total_files}."
+        msg = f"{len(self.player_data)} JSON file(s) loaded out of {total_files}."
         if errors:
-            msg += f"\n\n{len(errors)} erreur(s) détectée(s)."
+            msg += f"\n\n{len(errors)} error(s) detected."
 
         if errors:
             messagebox.showwarning(
-                "Chargement terminé",
-                msg + "\n\nPremières erreurs :\n" + "\n".join(errors[:10])
+                "Loading completed",
+                msg + "\n\nFirst errors:\n" + "\n".join(errors[:10])
             )
 
     def extract_info(self, data, file_name, file_path):
@@ -242,7 +242,7 @@ class PlayerSearchApp:
         self.filtered_items = items
 
         for item in items:
-            main_name = item["display_name"] or item["nameplate_name"] or "Sans nom"
+            main_name = item["display_name"] or item["nameplate_name"] or "Unknown"
             secondary_name = item["nameplate_name"] if item["nameplate_name"] and item["nameplate_name"] != main_name else ""
 
             if secondary_name:
@@ -253,7 +253,7 @@ class PlayerSearchApp:
             self.result_list.insert(tk.END, display)
 
         count = len(items)
-        self.result_count_label.config(text=f"{count} résultat{'s' if count != 1 else ''}")
+        self.result_count_label.config(text=f"{count} result{'s' if count != 1 else ''}")
         self.details_text.delete("1.0", tk.END)
 
     def on_select_result(self, event):
@@ -268,62 +268,62 @@ class PlayerSearchApp:
 
         lines = []
 
-        lines.append("=== INFORMATIONS JOUEUR ===\n")
-        lines.append(f"Nom affiché : {item['display_name'] or 'N/A'}")
-        lines.append(f"Nameplate : {item['nameplate_name'] or 'N/A'}")
-        lines.append(f"Nom normalisé : {item['normalized_display'] or item['normalized_nameplate'] or 'N/A'}")
-        lines.append(f"Fichier : {item['file_name']}")
-        lines.append(f"Chemin complet : {item['file_path']}\n")
+        lines.append("=== PLAYER INFORMATION ===\n")
+        lines.append(f"Display Name: {item['display_name'] or 'N/A'}")
+        lines.append(f"Nameplate: {item['nameplate_name'] or 'N/A'}")
+        lines.append(f"Normalized Name: {item['normalized_display'] or item['normalized_nameplate'] or 'N/A'}")
+        lines.append(f"File: {item['file_name']}")
+        lines.append(f"Full Path: {item['file_path']}\n")
 
-        lines.append("=== POSITION ACTUELLE ===")
+        lines.append("=== CURRENT POSITION ===")
         pos = item["current_position"]
         if pos:
-            lines.append(f"X : {pos.get('X', 'N/A')}")
-            lines.append(f"Y : {pos.get('Y', 'N/A')}")
-            lines.append(f"Z : {pos.get('Z', 'N/A')}")
+            lines.append(f"X: {pos.get('X', 'N/A')}")
+            lines.append(f"Y: {pos.get('Y', 'N/A')}")
+            lines.append(f"Z: {pos.get('Z', 'N/A')}")
         else:
-            lines.append("Aucune position actuelle trouvée.")
+            lines.append("No current position found.")
         lines.append("")
 
-        lines.append("=== DERNIÈRE POSITION SAUVEGARDÉE ===")
+        lines.append("=== LAST SAVED POSITION ===")
         last_pos = item["last_position"]
         if last_pos:
-            lines.append(f"X : {last_pos.get('X', 'N/A')}")
-            lines.append(f"Y : {last_pos.get('Y', 'N/A')}")
-            lines.append(f"Z : {last_pos.get('Z', 'N/A')}")
-            lines.append(f"Pitch : {last_pos.get('Pitch', 'N/A')}")
-            lines.append(f"Yaw : {last_pos.get('Yaw', 'N/A')}")
-            lines.append(f"Roll : {last_pos.get('Roll', 'N/A')}")
+            lines.append(f"X: {last_pos.get('X', 'N/A')}")
+            lines.append(f"Y: {last_pos.get('Y', 'N/A')}")
+            lines.append(f"Z: {last_pos.get('Z', 'N/A')}")
+            lines.append(f"Pitch: {last_pos.get('Pitch', 'N/A')}")
+            lines.append(f"Yaw: {last_pos.get('Yaw', 'N/A')}")
+            lines.append(f"Roll: {last_pos.get('Roll', 'N/A')}")
         else:
-            lines.append("Aucune dernière position trouvée.")
+            lines.append("No last position found.")
         lines.append("")
 
-        lines.append("=== MORTS ===")
-        lines.append(f"Nombre total de morts : {item['death_count']}")
+        lines.append("=== DEATHS ===")
+        lines.append(f"Total deaths: {item['death_count']}")
         if item["last_death"]:
             death = item["last_death"]
             transform = death.get("Transform", {})
-            lines.append("Dernière mort enregistrée :")
-            lines.append(f"Jour : {death.get('Day', 'N/A')}")
-            lines.append(f"X : {transform.get('X', 'N/A')}")
-            lines.append(f"Y : {transform.get('Y', 'N/A')}")
-            lines.append(f"Z : {transform.get('Z', 'N/A')}")
-            lines.append(f"MarkerId : {death.get('MarkerId', 'N/A')}")
+            lines.append("Last recorded death:")
+            lines.append(f"Day: {death.get('Day', 'N/A')}")
+            lines.append(f"X: {transform.get('X', 'N/A')}")
+            lines.append(f"Y: {transform.get('Y', 'N/A')}")
+            lines.append(f"Z: {transform.get('Z', 'N/A')}")
+            lines.append(f"MarkerId: {death.get('MarkerId', 'N/A')}")
         else:
-            lines.append("Aucune mort enregistrée.")
+            lines.append("No deaths recorded.")
         lines.append("")
 
-        lines.append("=== INVENTAIRE ===")
-        lines.append(f"Items dans Storage : {item['storage_count']}")
-        lines.append(f"Items dans HotBar : {item['hotbar_count']}")
-        lines.append(f"Items dans Armor : {item['armor_count']}")
-        lines.append(f"Items dans Utility : {item['utility_count']}")
-        lines.append(f"Items dans Backpack : {item['backpack_count']}")
+        lines.append("=== INVENTORY ===")
+        lines.append(f"Items in Storage: {item['storage_count']}")
+        lines.append(f"Items in HotBar: {item['hotbar_count']}")
+        lines.append(f"Items in Armor: {item['armor_count']}")
+        lines.append(f"Items in Utility: {item['utility_count']}")
+        lines.append(f"Items in Backpack: {item['backpack_count']}")
         lines.append("")
 
-        lines.append("=== AUTRES INFOS ===")
-        lines.append(f"UserMarkers : {item['marker_count']}")
-        lines.append(f"Zones découvertes : {item['zone_count']}")
+        lines.append("=== OTHER INFORMATION ===")
+        lines.append(f"UserMarkers: {item['marker_count']}")
+        lines.append(f"Discovered Zones: {item['zone_count']}")
 
         self.details_text.insert("1.0", "\n".join(lines))
 
