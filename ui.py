@@ -10,7 +10,7 @@ class PlayerSearchApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Hytale PlayerFinder")
-        self.root.geometry("1300x800")
+        self.root.geometry("1400x900")
 
         if getattr(sys, "frozen", False):
             self.base_dir = os.path.dirname(sys.executable)
@@ -28,28 +28,14 @@ class PlayerSearchApp:
         top_frame = tk.Frame(self.root)
         top_frame.pack(fill="x", padx=10, pady=10)
 
-        self.folder_label = tk.Label(
-            top_frame,
-            text="No folder selected",
-            anchor="w",
-            justify="left"
-        )
+        self.folder_label = tk.Label(top_frame, text="No folder selected", anchor="w", justify="left")
         self.folder_label.pack(fill="x")
 
         button_frame = tk.Frame(self.root)
         button_frame.pack(fill="x", padx=10, pady=5)
 
-        tk.Button(
-            button_frame,
-            text="Select playerBase folder",
-            command=self.select_folder
-        ).pack(side="left")
-
-        tk.Button(
-            button_frame,
-            text="Reload JSON files",
-            command=self.load_json_files
-        ).pack(side="left", padx=5)
+        tk.Button(button_frame, text="Select playerBase folder", command=self.select_folder).pack(side="left")
+        tk.Button(button_frame, text="Reload JSON files", command=self.load_json_files).pack(side="left", padx=5)
 
         search_frame = tk.Frame(self.root)
         search_frame.pack(fill="x", padx=10, pady=5)
@@ -82,7 +68,7 @@ class PlayerSearchApp:
         list_scroll.pack(side="left", fill="y")
         self.result_list.config(yscrollcommand=list_scroll.set)
 
-        self.details_text = tk.Text(right_frame, wrap="word")
+        self.details_text = tk.Text(right_frame, wrap="word", font=("Consolas", 10))
         self.details_text.pack(side="left", fill="both", expand=True)
 
         text_scroll = tk.Scrollbar(right_frame, command=self.details_text.yview)
@@ -91,7 +77,6 @@ class PlayerSearchApp:
 
     def auto_load_playerbase(self):
         default_playerbase = os.path.join(self.base_dir, "playerBase")
-
         if os.path.isdir(default_playerbase):
             self.folder_path = default_playerbase
             self.folder_label.config(text=f"Selected folder: {default_playerbase}")
@@ -99,17 +84,9 @@ class PlayerSearchApp:
 
     def select_folder(self):
         default_playerbase = os.path.join(self.base_dir, "playerBase")
+        start_dir = default_playerbase if os.path.isdir(default_playerbase) else self.base_dir
 
-        if os.path.isdir(default_playerbase):
-            start_dir = default_playerbase
-        else:
-            start_dir = self.base_dir
-
-        folder = filedialog.askdirectory(
-            title="Select playerBase folder",
-            initialdir=start_dir
-        )
-
+        folder = filedialog.askdirectory(title="Select playerBase folder", initialdir=start_dir)
         if folder:
             self.folder_path = folder
             self.folder_label.config(text=f"Selected folder: {folder}")
@@ -136,12 +113,7 @@ class PlayerSearchApp:
         msg = f"{len(self.player_data)} JSON file(s) loaded out of {total_files}."
         if errors:
             msg += f"\n\n{len(errors)} error(s) detected."
-
-        if errors:
-            messagebox.showwarning(
-                "Loading completed",
-                msg + "\n\nFirst errors:\n" + "\n".join(errors[:10])
-            )
+            messagebox.showwarning("Loading completed", msg + "\n\nFirst errors:\n" + "\n".join(errors[:10]))
 
     def on_search(self, *args):
         filtered = search_players(self.player_data, self.search_var.get())
@@ -153,36 +125,39 @@ class PlayerSearchApp:
 
         for item in items:
             main_name = item.get("display_name") or item.get("nameplate_name") or "Unknown"
-            secondary_name = (
-                item.get("nameplate_name")
-                if item.get("nameplate_name") and item.get("nameplate_name") != main_name
-                else ""
-            )
-
-            if secondary_name:
-                display = f"{main_name} ({secondary_name})  |  {item.get('file_name', 'N/A')}"
-            else:
-                display = f"{main_name}  |  {item.get('file_name', 'N/A')}"
-
+            secondary_name = item.get("nameplate_name") if item.get("nameplate_name") and item.get("nameplate_name") != main_name else ""
+            display = f"{main_name} ({secondary_name})  |  {item.get('file_name', 'N/A')}" if secondary_name else f"{main_name}  |  {item.get('file_name', 'N/A')}"
             self.result_list.insert(tk.END, display)
 
         count = len(items)
         self.result_count_label.config(text=f"{count} result{'s' if count != 1 else ''}")
         self.details_text.delete("1.0", tk.END)
 
+    def format_item_section(self, lines, title, items, capacity):
+        lines.append(f"=== {title} ===")
+        lines.append(f"Count: {len(items)} / Capacity: {capacity}")
+        if not items:
+            lines.append("Empty")
+            lines.append("")
+            return
+
+        for item in items:
+            durability = f"{item.get('durability', 0)} / {item.get('max_durability', 0)}"
+            lines.append(
+                f"Slot {item.get('slot', 'N/A')} | {item.get('id', 'N/A')} | Qty={item.get('quantity', 0)} | Durability={durability}"
+            )
+        lines.append("")
+
     def on_select_result(self, event):
         selection = self.result_list.curselection()
         if not selection:
             return
 
-        index = selection[0]
-        item = self.filtered_items[index]
-
+        item = self.filtered_items[selection[0]]
         self.details_text.delete("1.0", tk.END)
 
         lines = []
-
-        lines.append("=== PLAYER IDENTITY ===\n")
+        lines.append("=== PLAYER IDENTITY ===")
         lines.append(f"Display Name: {item.get('display_name', 'N/A') or 'N/A'}")
         lines.append(f"Nameplate: {item.get('nameplate_name', 'N/A') or 'N/A'}")
         lines.append(f"Normalized Name: {item.get('normalized_display', 'N/A') or item.get('normalized_nameplate', 'N/A') or 'N/A'}")
@@ -191,7 +166,8 @@ class PlayerSearchApp:
         lines.append(f"Game Mode: {item.get('game_mode', 'N/A')}")
         lines.append(f"Block Placement Override: {item.get('block_placement_override', 'N/A')}")
         lines.append(f"File: {item.get('file_name', 'N/A')}")
-        lines.append(f"Full Path: {item.get('file_path', 'N/A')}\n")
+        lines.append(f"Full Path: {item.get('file_path', 'N/A')}")
+        lines.append("")
 
         lines.append("=== CURRENT TRANSFORM ===")
         pos = item.get("current_position", {}) or {}
@@ -208,9 +184,10 @@ class PlayerSearchApp:
         lines.append(f"Velocity Z: {vel.get('Z', 'N/A')}")
         lines.append("")
 
-        lines.append("=== LAST SAVED POSITION (DEFAULT WORLD) ===")
+        lines.append("=== LAST SAVED POSITION ===")
         last_pos = item.get("last_position", {}) or {}
         if last_pos:
+            lines.append(f"World: {item.get('world_name', 'N/A')}")
             lines.append(f"X: {last_pos.get('X', 'N/A')}")
             lines.append(f"Y: {last_pos.get('Y', 'N/A')}")
             lines.append(f"Z: {last_pos.get('Z', 'N/A')}")
@@ -219,49 +196,6 @@ class PlayerSearchApp:
             lines.append(f"Roll: {last_pos.get('Roll', 'N/A')}")
         else:
             lines.append("No last position found.")
-        lines.append("")
-
-        lines.append("=== PLAYERDATA / WORLD ===")
-        lines.append(f"BlockIdVersion: {item.get('block_id_version', 'N/A')}")
-        lines.append(f"World: {item.get('world_name', 'N/A')}")
-        lines.append(f"Known Recipes Count: {len(item.get('known_recipes', []))}")
-        lines.append(f"Discovered Zones Count: {len(item.get('discovered_zones', []))}")
-        lines.append(f"Discovered Instances Count: {len(item.get('discovered_instances', []))}")
-        lines.append(f"Active Objective UUIDs Count: {len(item.get('active_objective_uuids', []))}")
-        lines.append(f"First Spawn (default): {item.get('first_spawn', 'N/A')}")
-        lines.append(f"Last Movement States: {item.get('last_movement_states', {})}")
-        lines.append("")
-
-        lines.append("=== DEATHS / MARKERS ===")
-        lines.append(f"Total deaths: {item.get('death_count', 0)}")
-        last_death = item.get("last_death")
-        if last_death:
-            transform = last_death.get("Transform", {})
-            lines.append("Last recorded death:")
-            lines.append(f"Day: {last_death.get('Day', 'N/A')}")
-            lines.append(f"X: {transform.get('X', 'N/A')}")
-            lines.append(f"Y: {transform.get('Y', 'N/A')}")
-            lines.append(f"Z: {transform.get('Z', 'N/A')}")
-            lines.append(f"MarkerId: {last_death.get('MarkerId', 'N/A')}")
-        else:
-            lines.append("No deaths recorded.")
-
-        lines.append(f"User Markers Count: {item.get('marker_count', 0)}")
-        lines.append("")
-
-        lines.append("=== INVENTORY SUMMARY ===")
-        lines.append(f"Inventory Version: {item.get('inventory_version', 'N/A')}")
-        lines.append(f"Active Hotbar Slot: {item.get('active_hotbar_slot', 'N/A')}")
-        lines.append(f"Active Tools Slot: {item.get('active_tools_slot', 'N/A')}")
-        lines.append(f"Active Utility Slot: {item.get('active_utility_slot', 'N/A')}")
-        lines.append(f"Sort Type: {item.get('sort_type', 'N/A')}")
-        lines.append("")
-        lines.append(f"Storage: {item.get('storage_count', 0)} / Capacity {item.get('storage_capacity', 0)}")
-        lines.append(f"Armor: {item.get('armor_count', 0)} / Capacity {item.get('armor_capacity', 0)}")
-        lines.append(f"HotBar: {item.get('hotbar_count', 0)} / Capacity {item.get('hotbar_capacity', 0)}")
-        lines.append(f"Utility: {item.get('utility_count', 0)} / Capacity {item.get('utility_capacity', 0)}")
-        lines.append(f"Backpack: {item.get('backpack_count', 0)} / Capacity {item.get('backpack_capacity', 0)}")
-        lines.append(f"Tool: {item.get('tool_count', 0)} / Capacity {item.get('tool_capacity', 0)}")
         lines.append("")
 
         lines.append("=== VANILLA STATS ===")
@@ -281,6 +215,45 @@ class PlayerSearchApp:
         lines.append(f"Unknown Stat: {item.get('unknown_stat', 'N/A')}")
         lines.append("")
 
+        lines.append("=== WORLD / PLAYERDATA ===")
+        lines.append(f"BlockIdVersion: {item.get('block_id_version', 'N/A')}")
+        lines.append(f"World: {item.get('world_name', 'N/A')}")
+        lines.append(f"First Spawn: {item.get('first_spawn', 'N/A')}")
+        lines.append(f"Last Movement States: {item.get('last_movement_states', {})}")
+        lines.append(f"Known Recipes Count: {len(item.get('known_recipes', []))}")
+        lines.append(f"Discovered Zones Count: {len(item.get('discovered_zones', []))}")
+        lines.append(f"Discovered Instances Count: {len(item.get('discovered_instances', []))}")
+        lines.append(f"Active Objective UUIDs Count: {len(item.get('active_objective_uuids', []))}")
+        lines.append("")
+
+        lines.append("=== DEATH POSITIONS ===")
+        deaths = item.get("death_positions", [])
+        lines.append(f"Total deaths: {len(deaths)}")
+        if deaths:
+            for i, death in enumerate(deaths, start=1):
+                lines.append(
+                    f"{i}. Day={death.get('day', 'N/A')} | X={death.get('x', 'N/A')} | Y={death.get('y', 'N/A')} | Z={death.get('z', 'N/A')} | MarkerId={death.get('marker_id', 'N/A')}"
+                )
+        else:
+            lines.append("No deaths recorded.")
+        lines.append(f"User Markers Count: {item.get('marker_count', 0)}")
+        lines.append("")
+
+        lines.append("=== INVENTORY SUMMARY ===")
+        lines.append(f"Inventory Version: {item.get('inventory_version', 'N/A')}")
+        lines.append(f"Active Hotbar Slot: {item.get('active_hotbar_slot', 'N/A')}")
+        lines.append(f"Active Tools Slot: {item.get('active_tools_slot', 'N/A')}")
+        lines.append(f"Active Utility Slot: {item.get('active_utility_slot', 'N/A')}")
+        lines.append(f"Sort Type: {item.get('sort_type', 'N/A')}")
+        lines.append("")
+
+        self.format_item_section(lines, "HOTBAR", item.get("hotbar_items", []), item.get("hotbar_capacity", 0))
+        self.format_item_section(lines, "ARMOR / EQUIPMENT", item.get("armor_items", []), item.get("armor_capacity", 0))
+        self.format_item_section(lines, "UTILITY", item.get("utility_items", []), item.get("utility_capacity", 0))
+        self.format_item_section(lines, "EDITOR TOOLS / TOOL", item.get("tool_items", []), item.get("tool_capacity", 0))
+        self.format_item_section(lines, "BACKPACK", item.get("backpack_items", []), item.get("backpack_capacity", 0))
+        self.format_item_section(lines, "STORAGE / INVENTORY", item.get("storage_items", []), item.get("storage_capacity", 0))
+
         lines.append("=== PLAYER MEMORIES ===")
         lines.append(f"Capacity: {item.get('player_memories_capacity', 0)}")
         lines.append(f"Stored Memories: {item.get('memory_count', 0)}")
@@ -288,11 +261,7 @@ class PlayerSearchApp:
         if memories:
             for i, memory in enumerate(memories, start=1):
                 lines.append(
-                    f"{i}. Id={memory.get('Id', 'N/A')} | "
-                    f"NPCRole={memory.get('NPCRole', 'N/A')} | "
-                    f"TranslationKey={memory.get('TranslationKey', 'N/A')} | "
-                    f"FoundLocation={memory.get('FoundLocationNameKey', 'N/A')} | "
-                    f"CapturedTimestamp={memory.get('CapturedTimestamp', 'N/A')}"
+                    f"{i}. Id={memory.get('Id', 'N/A')} | NPCRole={memory.get('NPCRole', 'N/A')} | TranslationKey={memory.get('TranslationKey', 'N/A')} | FoundLocation={memory.get('FoundLocationNameKey', 'N/A')} | CapturedTimestamp={memory.get('CapturedTimestamp', 'N/A')}"
                 )
         else:
             lines.append("No player memories found.")
